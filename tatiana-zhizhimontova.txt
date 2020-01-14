@@ -1,0 +1,203 @@
+# Git for Web Development Project
+In this project you will be using the concepts learned in the Git for Web Development lesson to fork/clone/push/and submit a PR for each project during this sprint.
+
+This project consists of two parts:
+
+## Part One:
+You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
+
+- [ ] Create your own version of this repo - Fork
+- [ ] Add your TL as a collaborator
+- [ ] Clone this repo
+- [ ] Create a branch `git checkout -b 'firstName-lastName'`
+  - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
+  - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
+- [ ] Create a Pull-Request to submit your work
+  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
+  - [ ] Add your TL as a reviewer on the Pull-Request
+- [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK". 
+
+
+## Part Two:
+
+https://codepen.io/LogStar/pen/RwNBKrg?editors=1100
+
+1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
+2. You will be marking up all of the HTML and styling it to look like this: https://codepen.io/BritHemming/full/jONmxOm using CSS
+* this should be review from yesterday/ extra practice
+3. After you are finished please copy the review questions into your .txt file and answer them
+4. don't forget to add, commit and push your changes.
+
+
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. Semantic HTML? 
+    Semantic HTML elements clearly describe it's meaning in a human and machine readable way. 
+
+    2. What is HTML used for? 
+    HTML is short for Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web.
+
+    3. What is an attribute and where do we put it? 
+    HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 is an HTML tag that indicates a heading on a website. Use only one H1 tag per page.
+
+    5. Name two tags that have required attributes
+    HTML <input> required Attribute, the required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+
+    HTML <textarea> Tag, required Specifies that a text area is required/must be filled out.
+
+    6. What do we put in the head of our HTML document? 
+    The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. 
+
+    7. What is an id? 
+    The id attribute specifies a unique id for an HTML element.
+
+    8. What elements can I add an id to?
+    any kind of emelemts but one per page.
+
+    9. How many times can I use the same id on a page? 
+    One per page.
+
+    10. What is a class? 
+    The class is an attribute which specifies one or more class names for an HTML element. 
+
+    11. What elements can I add a class to? 
+    The class attribute can be used on any HTML element.
+
+    12. How many times can I use the same class on a page? 
+    many times
+
+    13. How do I get my link to open in a new tab?
+
+    14. What is the alt attribute used for? 
+     just add a target="_blank" attribute to your links (anchor tags). Now when your visitors click that link, it will open in a new window or tab
+
+    15. How do I reference an id?
+    use # in CSS
+
+    16. What is the difference between a section and a div
+    <Section> means that the content inside is grouped. <div> tags define a division in an HTML. The <section> element represents a generic section of a document or application
+
+    17. What is CSS used for? 
+    CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.
+
+    18. How to we select an element? Example - every h2 on the page
+    h2{}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+    Use the ID when you have a single element on the page that will take the style. Examples of ids are: main-content, header, footer, or left-sidebar.
+    Use a class when you want to consistently style multiple elements throughout the page/site.  An example may be a div of "comments" or a certain list style to use for related links.
+
+
+    20. How do we select classes in CSS?
+.className{}
+
+    21. How do we select a p element with a single class of “human””?
+p .human{}
+
+    22. What is a parent child selector? When would this be useful? 
+The terms parent, child, and sibling are used to describe the relationships. CSS uses this structure to make specific selectors like first-child , :nth-child(n) , :last-child. 
+
+    23. How do you select all links within a div with the class of sidebar?
+div  .sidebar li{}
+
+    24. What is a pseudo selector?
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
+    25. What do we use the change the spacing between lines?
+Use the line-height property in CSS.
+
+    26. What do we use to change the spacing between letters?
+letter-spacing: 2px; 
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:uppercase;
+    text-transform:lowercase;
+   text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div{
+    border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+    *{}
+
+    30. How do I write a comment in CSS?
+    /**/
+
+    31. How do I find out what file I am in, when I am using the command line?
+     pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+   ls 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm goodbye.txt
+    You should be careful, since this file will be deleted forever.
+
+    34. Why should I use version control? 
+
+    Version control is a type of system that allows you to keep track of changes made to your code over time. As such, version control is useful because: You can revert back to specific 'versions' of your code. Collaboration on the same work is possible because specific changes and associated contributors are tracked.
+
+    35. How often should I commit to github?
+    every 20 min 
+
+    36. What is the command we would use to push our repo up to github? 
+    git push 
+    37. Walk me through Lambda's git flow. 
+
+    -create you own version of repo -> fork
+    -add collaborator
+    -clone your Repo usion githubs Clone or download button
+    -in Terminal cd to go to the directory where you are goig to want to clone your forked Repo
+    -git clone link to repo
+    - cd into the newly created repo using the cd <repo name>
+    -git checkout - b 'firstname-lastname' to create your own branch name for the repo
+    -you can work on your repo
+    -git add . will add the repo changes and make them ready to committing
+    -git push -u orgin branch-name  will push all your commits from your local machine up onto github
+    -Click on the Branch:master button on the left side of the github
+    -click your name-branch and then click the New pull request button to make a pull request on your name branch
+    -this will redirect you to the pull request page
+    -open a pull request
+    -add your TL to the Reviewers and submit the pull request
+    -do not merge your own pull request
+    -your TL will merge the PR after they have done a review
+
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    Block-level elements take up all of the available space within their parent container. Inline elements can exist within block-level elements. A paragraph would normally be a block-level element.
+
+    -The <div> element is a block-level element.
+    -the SPAN element is an inline element, and will not start on a new line and only takes up as much width as necessary.
+
+    2. What happens when an element is positioned absolutely? 
+
+    An absolutely positioned element is an element whose computed position value is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing block. (The containing block is the ancestor relative to which the element is positioned.) 
+
+
+   
+
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+Stretch Git Tasks
+- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
+  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+
+
